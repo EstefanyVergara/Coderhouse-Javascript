@@ -8,7 +8,7 @@ let selectionMenu;
 function menuCompra() {
   selectionMenu = 9 ;
   while (selectionMenu != 0) {
-    selectionMenu = parseInt(prompt('Ingrese el número del producto que desea seleccionar: 1- Cepillo para Mascotas / 2- Alimento para Mascotas / 5- Verficación / 0-Salir'));
+    selectionMenu = parseInt(prompt('Ingrese el número del producto que desea adquirir: 1- Cepillo para Mascotas / 2- Alimento para Mascotas / 5- Verficación / 0-Salir'));
       switch (selectionMenu) {
           case 1:
                carritoAccesorios();
