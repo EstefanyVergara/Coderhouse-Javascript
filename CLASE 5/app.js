@@ -9,7 +9,7 @@ class Items {
     return `Compraste un ${this.name} por el precio de ${this.cost} pesos`;
   }
   updateStock() {
-    this.stock = this.stock - 1;
+    this.stock = this.stock --;
     return `Ahora quedan ${this.stock} ${this.name}s en bodega`;
   }
 }
